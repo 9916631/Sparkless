@@ -1,6 +1,6 @@
 <?php
 $_API_KEY = 'fa6e425aa8160aabd484c4693cc8b3bc';
-$_NGROK_URL = 'https://7f0d-14-137-3-140.ngrok.io';
+$_NGROK_URL = 'https://cb2c-14-137-3-140.ngrok.io';
 $shop = $_GET['shop'];
 $scopes = 'read_products,write_products,read_orders,write_orders';
 $redirect_uri = $_NGROK_URL . '/sparkless/token.php';
