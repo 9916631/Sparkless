@@ -22,5 +22,5 @@ echo $shopify->get_url();
 echo '<br />';
 echo $shopify->get_token();
 
-$products = $shopify->rest_api('admin/api/2021-07/products.json', array(), 'GET');
+$products = $shopify->rest_api('/admin/api/2021-07/products.json', array(), 'GET');
 echo print_r($products);
